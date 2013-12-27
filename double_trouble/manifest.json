@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "Double Confluence Trouble",
+    "description": "This extension warns when you have two confluence pages open for editting.",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery.js", "detect_edit_clicks.js"]
+        }   
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ]
+}

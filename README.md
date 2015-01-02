@@ -12,4 +12,4 @@ I don't know what the deal is, but I keep running into the scenario where I'm ed
 This extension detects this scenario and pops up a suitably obnoxious modal alert warning window when I click edit. 
 
 ### Bugs
-Currently doesn't detect if you copy a URL of a concluence page in edit, and paste it in another tab.
+
